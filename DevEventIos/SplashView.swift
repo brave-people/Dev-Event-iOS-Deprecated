@@ -18,6 +18,7 @@ struct SplashView: View {
             Text("© 2021 지성빈 by 용감한 친구들. all rights reserved.")
                 .font(.caption)
                 .foregroundColor(Color.white)
+                .padding(.bottom, 10)
         }
         .padding()
         .frame(
@@ -27,7 +28,7 @@ struct SplashView: View {
         )
         .ignoresSafeArea(.all)
         .background(Color(UIColor(named:"primary")!))
-        .statusBarStyle(.darkContent)
+        .preferredColorScheme(.dark)
     }
 }
 
