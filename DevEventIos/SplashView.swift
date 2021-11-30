@@ -12,7 +12,7 @@ struct SplashView: View {
         VStack {
             Spacer()
             Text("Dev Event")
-                .font(.title)
+                .font(.largeTitle)
                 .foregroundColor(Color.white)
             Spacer()
             Text("© 2021 지성빈 by 용감한 친구들. all rights reserved.")
@@ -27,7 +27,7 @@ struct SplashView: View {
         )
         .ignoresSafeArea(.all)
         .background(Color(UIColor(named:"primary")!))
-        .statusBarStyle(.lightContent)
+        .statusBarStyle(.darkContent)
     }
 }
 
