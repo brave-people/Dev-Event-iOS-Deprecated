@@ -19,7 +19,8 @@
 - [ ] 카카오톡으로 이벤트 공유
 
 # 개발 일기
-1. [#1](https://jisungbin.medium.com/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-ios-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95-1-b81deb029ae3)
+
+1. [안드로이드 개발자를 위한 iOS 개발 방법 #1](https://jisungbin.medium.com/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-ios-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95-1-b81deb029ae3)
 
 ---
 
