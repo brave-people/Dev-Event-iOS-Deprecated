@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct SplashView: View {
+struct SplashScreen: View {
+    @ObservedObject var sharedVm: SharedViewModel
+    
     var body: some View {
         VStack {
             Spacer()
@@ -27,13 +29,18 @@ struct SplashView: View {
             alignment: .center
         )
         .ignoresSafeArea(.all)
-        .background(Color(UIColor(named:"primary")!))
-        .preferredColorScheme(.dark)
+        .background(Color(UIColor(named: "primary")!))
+        .zIndex(1)
+        .doDelayed(3) {
+            withAnimation(.easeIn) {
+                sharedVm.screenType = .main
+            }
+        }
     }
 }
 
-struct SplashView_Previews: PreviewProvider {
+struct SplashScreen_Previews: PreviewProvider {
     static var previews: some View {
-        SplashView()
+        SplashScreen(sharedVm: SharedViewModel())
     }
 }
