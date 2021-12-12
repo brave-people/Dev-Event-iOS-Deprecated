@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SplashScreen: View {
-    @ObservedObject var sharedVm: SharedViewModel
+    @EnvironmentObject private var sharedVm: SharedViewModel
     
     var body: some View {
         VStack {
@@ -41,6 +41,6 @@ struct SplashScreen: View {
 
 struct SplashScreen_Previews: PreviewProvider {
     static var previews: some View {
-        SplashScreen(sharedVm: SharedViewModel())
+        SplashScreen().environmentObject(SharedViewModel())
     }
 }

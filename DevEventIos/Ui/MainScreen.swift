@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainScreen: View {
-    @ObservedObject var sharedVm: SharedViewModel
+    @EnvironmentObject private var sharedVm: SharedViewModel
     
     var body: some View {
         VStack {
@@ -26,6 +26,6 @@ struct MainScreen: View {
 
 struct MainScreen_Previews: PreviewProvider {
     static var previews: some View {
-        MainScreen(sharedVm: SharedViewModel())
+        MainScreen().environmentObject(SharedViewModel())
     }
 }

@@ -9,14 +9,11 @@ import SwiftUI
 
 @main
 struct DevEventIosApp: App {
-    @StateObject var sharedViewModel = SharedViewModel()
+    private var sharedViewModel = SharedViewModel()
     
     var body: some Scene {
         WindowGroup {
-            switch sharedViewModel.screenType {
-            case .splash: SplashScreen(sharedVm: sharedViewModel).transition(.opacity)
-            case .main: MainScreen(sharedVm: sharedViewModel).transition(.opacity)
-            }
+            ContentView().environmentObject(sharedViewModel)
         }
     }
 }
