@@ -18,6 +18,9 @@
 - [ ] 무시할 이벤트 태그 지정
 - [ ] 카카오톡으로 이벤트 공유
 
+# 개발 일기
+1. [#1](https://jisungbin.medium.com/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-ios-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95-1-b81deb029ae3)
+
 ---
 
 # 알려진 문제 및 의견 제출
